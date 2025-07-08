@@ -1,0 +1,6 @@
+resources:
+  - ../../infrastructure/dev
+  - ../../apps/dev/go
+  - ../../apps/dev/dotnet
+  - ../../apps/dev/nodejs
+  - ../../apps/dev/rails
