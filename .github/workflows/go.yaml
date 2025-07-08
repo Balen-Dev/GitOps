@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      IMAGE_NAME: balenabdalla/go-api-cicd
+      IMAGE_NAME: balenabdalla/go-greeting-api
 
     defaults:
       run:
