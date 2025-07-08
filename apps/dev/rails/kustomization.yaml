@@ -1,10 +1,2 @@
 resources:
   - ../../base/rails
-
-secretGenerator:
-  - name: rails-secret
-    literals:
-      - SECRET_KEY_BASE=a24a513535dffd2f5611ff86d70592cb
-
-generatorOptions:
-  disableNameSuffixHash: true
