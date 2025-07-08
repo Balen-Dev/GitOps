@@ -1,0 +1,8 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: ImageRepository
+metadata:
+  name: go-api
+  namespace: flux-system
+spec:
+  image: balenabdalla/go-greeting-api
+  interval: 1m

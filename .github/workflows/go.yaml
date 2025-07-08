@@ -58,4 +58,6 @@ jobs:
           context: services/go
           file: services/go/Dockerfile
           push: true
-          tags: ${{ env.IMAGE_NAME }}:latest
+          tags: |
+            balenabdalla/go-api-cicd:latest
+            balenabdalla/go-api-cicd:${{ github.sha }}
