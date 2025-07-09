@@ -1,5 +1,5 @@
 resources:
   - ../../base/go
-images:
-  - name: balenabdalla/go-greeting-api
-    newTag: latest
+# images:
+#   - name: balenabdalla/go-greeting-api
+#     newTag: latest
