@@ -2,4 +2,4 @@ resources:
   - ../../base/go
 images:
   - name: balenabdalla/go-greeting-api
-    newTag: auto
+    newTag: latest
