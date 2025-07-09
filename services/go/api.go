@@ -31,7 +31,7 @@ func generalGreetingHandler(w http.ResponseWriter, r *http.Request) {
         return
     }
 
-    fmt.Fprintln(w, "Hello! Welcome to the GO API (Updated by FluxCD).")
+    fmt.Fprintln(w, "Hello! Welcome to the GO API (Deployed by FluxCD).")
 }
 
 func customGreetingHandler(w http.ResponseWriter, r *http.Request) {
